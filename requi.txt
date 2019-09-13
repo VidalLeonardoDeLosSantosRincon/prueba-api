@@ -1,0 +1,13 @@
+https://apidev.kanvas.dev
+
+POST -> /v1/auth (email y password)
+GET -> /v1/users (sacar la info)
+POST -> /v1/users (registrar)
+
+3 pantallas
+1- registro
+2- login
+3- listar de usuarios
+
+Si cierro la pantalla y vuelvo luego de estar logeado debo poder ver la pantalla de listar
+Si no estoy logeado y voy a la pantalla de lista debe enviarme a la pantalla de login
