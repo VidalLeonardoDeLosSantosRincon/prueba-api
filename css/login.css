@@ -9,5 +9,61 @@
     align-items: center;
 }
 
+.ctr-form-login #login-form{
+    
+    background:white;
+    height:250px;
+    width:500px;
+    padding:10px;
+    box-sizing: border-box;
+    border:none;
+    box-shadow:1px 1px 5px rgba(0,0,0,0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctr-form-login #login-form .login-form-field{
+    width:100%;
+    height:45px;
+    padding:0 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border:0.5px solid rgba(0,0,0,0.1);
+}
+
+.ctr-form-login #login-form .login-form-btn-box {
+   width:100%;
+   background: white;
+   padding:5px;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.ctr-form-login #login-form .login-form-btn-box .login-form-btn{
+    width:40%;
+    height: 35px;
+    border:none;
+    border-radius:3px;
+    font-size:16px;
+    font-weight: 100;
+}
+
+.ctr-form-login #login-form .login-form-btn-box #btn-login{
+    background: dodgerblue;
+    color:white;
+}
+.ctr-form-login #login-form .login-form-btn-box #btn-cancel{
+    border:1.5px solid orange;
+    color:orange;
+    background: white;
+}
+
+
 
 
