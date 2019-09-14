@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.header{
+    width:100%;
+    height:50px;
+    padding:0 25px;
+    box-sizing: border-box;
+    box-shadow:1px 5px 5px rgba(0,0,0,0.1);
+    margin:0 0 5px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+    font-family:arial;
+}
+
+.header ul li {
+    display: inline-block;
+    padding:5px 15px;
+    outline: none;
+}
+
+.header ul #hr_{
+    border:1px solid dodgerblue;
+    border-radius:3px;
+    color:rgb(56, 66, 77);
+}
+
+.header ul li a {
+    text-decoration: none;
+    color:gray;
+}
+
+
+.ctr-form-signup{
+    height: 100vh;
+    background: rgba(0,0,0,0.02);
+    width:100%;
+    padding:5px;
+    box-sizing: border-box;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctr-form-signup #signup-form{
+    
+    background:white;
+    height:auto;
+    width:500px;
+    padding:10px;
+    box-sizing: border-box;
+    border:none;
+    box-shadow:1px 5px 15px rgba(0,0,0,0.3);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctr-form-signup #signup-form .signup-form-field{
+    width:100%;
+    height:45px;
+    padding:0 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border:0.5px solid rgba(0,0,0,0.1);
+    color:gray;
+    font-size:14px;
+}
+
+.ctr-form-signup #signup-form .signup-form-btn-box {
+   width:100%;
+   background: white;
+   padding:5px;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.ctr-form-signup #signup-form .signup-form-btn-box .signup-form-btn{
+    width:40%;
+    height: 35px;
+    border:none;
+    border-radius:3px;
+    font-size:16px;
+    font-weight: 100;
+    outline:none;
+}
+
+.ctr-form-signup #signup-form .signup-form-btn-box #btn-signup{
+    background: dodgerblue;
+    color:white;
+}
+
+.ctr-form-signup #signup-form .signup-form-btn-box #btn-cancel{
+    border:1.5px solid orange;
+    color:orange;
+    background: white;
+}

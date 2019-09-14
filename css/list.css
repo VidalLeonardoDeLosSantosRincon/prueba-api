@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.header{
+    width:100%;
+    height:50px;
+    padding:0 25px;
+    box-sizing: border-box;
+    box-shadow:1px 5px 5px rgba(0,0,0,0.1);
+    margin:0 0 5px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+    font-family:arial;
+}
+
+.header ul li {
+    display: inline-block;
+    padding:5px 15px;
+    outline: none;
+}
+
+.header ul #hr_{
+    border:1px solid dodgerblue;
+    border-radius:3px;
+    color:rgb(56, 66, 77);
+}
+
+.header ul li a {
+    text-decoration: none;
+    color:gray;
+}
+
+.ctr-list{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,0.02);
+    padding:10px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ctr-list .list-users{
+    height: 80%;
+    width: 100%;
+    background: white;
+    padding:10px;
+    box-sizing: border-box;
+    overflow-y: scroll
+}
+
+.ctr-list .list-users .elem{
+    height: auto;
+    font-size:12px;
+    font-family: arial;
+    width: 100%;
+    background: rgba(0,0,0,0.02);
+    padding:5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    border-radius:3px;
+}
+
+.ctr-list .list-users .elem span{
+    padding:5px;
+    box-sizing: border-box;
+}

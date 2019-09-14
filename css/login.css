@@ -1,3 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.header{
+    width:100%;
+    height:50px;
+    padding:0 25px;
+    box-sizing: border-box;
+    box-shadow:1px 5px 5px rgba(0,0,0,0.1);
+    margin:0 0 5px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+    font-family:arial;
+}
+
+.header ul li {
+    display: inline-block;
+    padding:5px 15px;
+    outline: none;
+}
+
+.header ul #hr_{
+    border:1px solid dodgerblue;
+    border-radius:3px;
+    color:rgb(56, 66, 77);
+}
+
+.header ul li a {
+    text-decoration: none;
+    color:gray;
+}
+
 .ctr-form-login{
     height: 100vh;
     background: rgba(0,0,0,0.02);
@@ -55,6 +95,7 @@
     border-radius:3px;
     font-size:16px;
     font-weight: 100;
+    outline:none;
 }
 
 .ctr-form-login #login-form .login-form-btn-box #btn-login{

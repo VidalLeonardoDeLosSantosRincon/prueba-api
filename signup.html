@@ -8,19 +8,30 @@
     <title>Login</title>
 </head>
 <body>
+    <header class="header">
+        <span id="btn-logout"></span>
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="list.html">Users</a></li>
+            <li id="hr_"><a href="#">Sign up</a></li>
+        </ul>
+    </header>
     <div class="ctr-form-signup">
-        <form id="login-form" name="signup-form">
-            <input class="field" type="text" name="first-name" id="first-name" placeholder="Name"/><br/>
-            <input class="field" type="text" name="last-name" id="last-name" placeholder="Last name"/><br/>
-            <input class="field" type="text" name="display-name" id="display-name" placeholder="Display name"/><br/>
-            <input class="field" type="password" name="password" id="password" placeholder="Password"/><br/>
-            <input class="field" type="password" name="verify-password" id="verify-password" placeholder="Verify Password"/><br/>
-            <input class="field" type="text" name="default-company" id="default-company" placeholder="Default company"/><br/>
-            <input class="field" type="text" name="phone-number" id="phone-number" placeholder="Phone number"/><br/>
-            <input class="field" type="email" name="email" id="email" placeholder="Email"/><br/>
-            <input class="btn" id="btn-signup" type="button" value="Sign up">
+        <form id="signup-form" name="signup-form">
+            <input class="signup-form-field" type="text" name="first-name" id="first-name" placeholder="Name"/><br/>
+            <input class="signup-form-field" type="text" name="last-name" id="last-name" placeholder="Last name"/><br/>
+            <input class="signup-form-field" type="text" name="display-name" id="display-name" placeholder="Display name"/><br/>
+            <input class="signup-form-field" type="password" name="password" id="password" placeholder="Password"/><br/>
+            <input class="signup-form-field" type="password" name="verify-password" id="verify-password" placeholder="Verify Password"/><br/>
+            <input class="signup-form-field" type="text" name="default-company" id="default-company" placeholder="Default company"/><br/>
+            <input class="signup-form-field" type="text" name="phone-number" id="phone-number" placeholder="Phone number"/><br/>
+            <input class="signup-form-field" type="email" name="email" id="email" placeholder="Email"/><br/>
+            <span class="signup-form-btn-box">
+                <input class="signup-form-btn" id="btn-signup" type="button" value="Sign up">
+                <input class="signup-form-btn" id="btn-cancel" type="button" value="Cancel">
+            </span>
         </form>
     </div>
-    <script src="js/js/signup.js"></script>
+    <script src="js/signup.js"></script>
 </body>
 </html>
