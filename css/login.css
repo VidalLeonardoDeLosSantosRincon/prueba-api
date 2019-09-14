@@ -1,5 +1,6 @@
 .ctr-form-login{
     height: 100vh;
+    background: rgba(0,0,0,0.02);
     width:100%;
     padding:5px;
     box-sizing: border-box;
@@ -17,7 +18,7 @@
     padding:10px;
     box-sizing: border-box;
     border:none;
-    box-shadow:1px 1px 5px rgba(0,0,0,0.2);
+    box-shadow:1px 5px 15px rgba(0,0,0,0.3);
 
     display: flex;
     flex-direction: column;
@@ -32,6 +33,8 @@
     border-radius: 3px;
     box-sizing: border-box;
     border:0.5px solid rgba(0,0,0,0.1);
+    color:gray;
+    font-size:14px;
 }
 
 .ctr-form-login #login-form .login-form-btn-box {
